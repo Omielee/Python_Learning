@@ -2,10 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-**/__pycache__
+**/__pycache__/
 
 # store
 .DS_Store
+**/.DS_Store
 
 # C extensions
 *.so
