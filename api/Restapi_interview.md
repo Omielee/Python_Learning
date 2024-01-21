@@ -17,7 +17,8 @@ CRUD
 - 500 : a server-side error
 
 4. What is a URI?
-    URI stands for uniform resource identifier，a standardized string that uniquely identifies a resource on the internet.
+
+   URI stands for uniform resource identifier，a standardized string that uniquely identifies a resource on the internet.
     
     It can be a **URL**, which locates and accesses resources like web pages or files, or a **URN**, which names a resource without describing its location. Essentially, a URI provides a universal way to reference any resource available in the network.
 
