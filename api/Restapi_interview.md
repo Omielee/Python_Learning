@@ -9,6 +9,7 @@
 - Post: Creat
 - Put: Update
 - Delete: Delete
+
 CRUD
 
 3. Explain the HTTP status codes?
