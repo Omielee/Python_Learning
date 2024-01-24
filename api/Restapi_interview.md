@@ -22,3 +22,44 @@ CRUD
     
     It can be a **URL**, which locates and accesses resources like web pages or files, or a **URN**, which names a resource without describing its location. Essentially, a URI provides a universal way to reference any resource available in the network.
 
+5. What are best practices when making the URI for RESTFul web-services?
+- Develop them with understanding that forward flashes indicate hierarchy
+- Use plural nouns for branches
+- Use hyphens for multiple words
+- Use lowercase
+- Refrain from using file extensions
+
+6. What are the differences between REST and SOAP?
+- Definition
+    - REST: Representational State transfer
+    - SOAP: Simple object access protocal
+- Nature
+    - REST: an architecture to develop web services, flexible standards.
+    - SOAP: a protocal for exchanging structure information by way of apis, standards are more strict in implementations, statefulness
+- Data format
+    - REST: Json, XML and others
+    - SOAP: ONLY XML
+
+7. What are the differences between REST and AJAX?
+- Definition
+    - REST: Representational State transfer, an architecture for handling HTTP requests
+    - AJAX: asynchronous JavaScript and XML, a collection of web technologies that allow for asynchronous web application using the built-in xml HTTP Request object.
+- REST API may handlie ajax clients and AJAX maybe used to send restful requests. BUT an api could never be implemented nor replaced by AJAX.
+
+8. What are some tools used to develop and test REST APIs?
+It depends. Node.js: Express. Test: postman
+
+9. What are real-world examples of REST APIs?
+When user get to the Amazon website, there is a get request sent to a server at the url for the necessary html to display to the user. 
+For developers, restapis are used to manipulate data using the four main HTTP methods. 
+
+**PROS**
+- easy to learn
+- wide range of data transfers
+- statelessness
+- scalability
+
+**CONS**
+- lack of built-in security
+- need to be versioned for backward compatibility
+- consistency in urls difficult to main for complex projects
